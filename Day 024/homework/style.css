@@ -1,0 +1,41 @@
+#a {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+}
+
+#b {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+}
+
+#c {
+    background-color: red;
+    height: 20%;
+    width: 20%;
+}
+
+#d {
+    background-color: green;
+    height: 20%;
+    width: 20%;
+}
+
+#e {
+    background-color: yellow;
+    height: 20%;
+    width: 20%;
+}
+
+#f {
+    background-color: orange;
+    height: 20%;
+    width: 20%;
+}
+
+#g {
+    background-color: purple;
+    height: 20%;
+    width: 20%;
+}

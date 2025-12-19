@@ -1,0 +1,27 @@
+h1 {
+    color:red
+}
+#Goa {
+    color:rgb(15, 44, 104)
+}
+.Goorac {
+    color: #000;
+}
+p {
+    color:aqua
+}
+#div1 {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+}
+#div2 {
+    background-color: red;
+    height: 25%;
+    width: 25%;
+}
+#div3 {
+    background-color: green;
+    height: 25%;
+    width: 25%;
+}
