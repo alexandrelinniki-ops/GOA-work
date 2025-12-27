@@ -1,0 +1,23 @@
+
+
+.header {
+    text-align: center;
+}
+.info {
+    text-align: left;
+}
+.header1 {
+    text-align: center;
+    text-decoration: line-through red;
+}
+.info1 {
+    text-decoration: underline overline green;
+}
+.hi2 {
+    text-shadow: 7px 2px 20px blue;
+}
+.goa {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

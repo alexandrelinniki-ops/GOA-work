@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#a {
+    text-align: center;
+    text-decoration: underline red;
+}
+
+#b {
+    text-align: right;
+    text-decoration: underline overline blue;
+}
+
+#c {
+    color: cyan;
+    text-align: left;
+    text-decoration: line-through cyan;
+}
+
+#d {
+    color: cyan;
+    text-align: left;
+    text-decoration: line-through cyan;
+}
+
+#e {
+    color: cyan;
+    text-align: right;
+    text-decoration: overline cyan;
+}
+
+#f {
+    color: cyan;
+    text-align: right;
+    text-decoration: overline cyan;
+}
+
+#g {
+    text-align: left;
+    text-decoration: underline white;
+}
+
+#h {
+    text-align: left;
+    text-decoration: underline white;
+}
+
+#i {
+    color: blue;
+    text-align: center;
+    text-decoration: line-through blue;
+}
+
+#j {
+    color: blue;
+    text-align: center;
+    text-decoration: line-through blue;
+}
+
+#k {
+    color: red;
+    text-align: right;
+    text-decoration: overline red;
+}
+
+#l {
+    color: red;
+    text-align: right;
+    text-decoration: overline red;
+}
