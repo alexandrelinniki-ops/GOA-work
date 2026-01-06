@@ -1,0 +1,10 @@
+.a:hover {
+    color: red;
+}
+
+tr,td,table {
+    border: 5px solid yellow;
+}
+table {
+    border-collapse: collapse;
+}

@@ -1,0 +1,16 @@
+td,tr,table {
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: blue;
+}
+
+tr:hover {
+    background-color: green;
+}
