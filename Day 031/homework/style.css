@@ -1,0 +1,45 @@
+.a {
+    color: aqua;
+}
+
+ul {
+    list-style: square;
+}
+
+.b {
+    color: brown;
+}
+
+ol {
+    list-style: upper-alpha;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="number"] {
+    color: green;
+}
+
+#d {
+    color: blue;
+}
+
+input[type="email"] {
+    color: yellow;
+}
+
+input[type="password"] {
+    color: orange;
+}
+
+label {
+    background-color: black;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+}
