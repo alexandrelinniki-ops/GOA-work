@@ -1,0 +1,16 @@
+body {
+    color: green;
+    background-color: black;
+}
+input[type=text] {
+    color: green;
+}
+input[type=email] {
+    color: green;
+}
+input[type=password] {
+    color: green;
+}
+input[type=number] {
+    color: green;
+}
