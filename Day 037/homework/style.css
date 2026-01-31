@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* ჰორიზონტალურად ცენტრში */
+    align-items: center;     /* ვერტიკალურად ცენტრში */
+}
+
+.parent {
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end; /* შიდა div მარჯვნივ */
+    align-items: center;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+}
