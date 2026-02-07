@@ -1,0 +1,94 @@
+/* introes */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* homework N1 */
+
+.box_1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+
+    position: relative; 
+    top: 20px;          
+    left: 30px;         
+}
+
+/* homework N2 */
+
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+
+    position: relative; 
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+
+    position: absolute; 
+    top: 20px;          
+    left: 20px;         
+}
+
+/* homework N3 */
+
+.fixed {
+    width: 1500px;
+    height: 100px;
+    background-color: red;
+
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}
+
+/* homework N4 */
+
+.container {
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.item_first {
+    order: 2; 
+}
+
+.item_second {
+    order: 1;
+}
+
+/* homework N5 */
+
+.container1 {
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.item_1st {
+    order: 2; 
+}
+
+.item_2nd {
+    order: 1;
+}
+
+.item_3rd {
+    order: -1;
+}
