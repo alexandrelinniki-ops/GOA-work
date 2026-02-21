@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    background-image: url(image.png);
+}
+
+/* homework N4 */
+
+.box {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: green;
+    transform: translate(10px, 10px);
+}
+
+.box:active {
+    background-color: blue;
+    transform: translate(15px, 15px);
+}

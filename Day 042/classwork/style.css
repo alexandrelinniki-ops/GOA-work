@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    background-image: url(image.png);
+    background-size: contain;
+    color: white;
+}
+
+
+.box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: transform 10s, background-color 5s;
+}
+
+.box:hover {
+    background-color: red;
+    transform: scale(2);
+}
