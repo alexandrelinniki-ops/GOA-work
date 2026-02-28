@@ -1,0 +1,29 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation: cn2 4s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes cn2 {
+    25% {
+        background-color: blue;
+        transform: translate(1000px, 0px);
+    }
+
+    50% {
+        background-color: yellow;
+        transform: translate(1000px, 350px);
+    }
+
+    75% {
+        background-color: green;
+        transform: translate(0px, 350px);
+    }
+
+    100% {
+        background-color: red;
+        transform: translate(0px, 0px);
+    }
+}
