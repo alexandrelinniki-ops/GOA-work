@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    0) შექმენით div, რომელსაც მისცემთ 200px სიმაღლეს და სიგანეს, ასევე ფერს წითელს, 
+    შემდეგ შექმენით 2 ღილაკი პირველ ღილაკზე დაჭერისას ფერი გახდეს ყვითელი, 
+    ხოლო მეორე ღილაკის დაჭერისას გახდეს წითელი
+    1) გააკეთეთ პირველ დავალებაში მოცემული დავალება ფოტოებით
+    2) შექმენით 3 ცვლადი, სადაც შეინახავთ თქვენს შესახებ ინფორმაციას, 
+    შემდეგ გამოიყენეთ console.log() ფუნქცია, და გამოიტანეთ ისინი კონსოლში
+    3) რა არის განსხვავება მონაცემთა ტიპებისთვის jsში და პითონში,
+    გამოიყენეთ typeof ფუნქცია რიცხვზე და ნახეთ რას გამოიტანს კონსოლში
+
+    0)
+    <div onclick="width=200, height=200, style='backgroundcolor: red'">hello, how are you  </div>
+    <button onclick="style='backgroundcolor: yellow'">click me</button>
+    <button onclick="style='backgroundcolor: red'">click me</button>
+
+    1) 
+    <img src="IMG1.png" id="Picture"> <br>
+    <button onclick="Picture.src='IMG2.png'">Change Image</button>
+    <button onclick="Picture.src='IMG1.png'">Change Image Back</button>
+
+    2)
+    <script>
+        let name = "Alexandre";
+        let age = 13;
+        let hobby = "Programming";
+        console.log(name);
+        console.log(age);
+        console.log(hobby);
+    </script>
+
+    3)
+    <!--
+    მონაცემთა ტიპები
+
+    JavaScript:
+    number (მთელიც და ათწილადიც ერთად)
+    string
+    boolean
+    
+    Python:
+    int (მთელი)
+    float (ათწილადი)
+    str
+    bool
+    list, tuple, და სხვ.
+
+
+    JS-ში int და float არ იყოფა → ორივე არის number
+    Python-ში ცალკეა → int და float
+    -->
+    Java
+    <script>
+        let num = 10;
+        console.log(typeof num);
+    </script>
+    <!--გამოიტანს "number"-ს-->
+
+    Python
+    num = 10
+    print(type(num))
+    <!--გამოიტანს 'int'-ს-->
+</body>
+</html>
