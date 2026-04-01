@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    0) კომენტარებით ჩამოწერეთ დღეს ნასწავლი ყველა მეთოდი და property, გვერდზე მიუწერეთ რას აკეთებს ის
+    <br>
+    1) console.log()ში გამოიყენეთ ყველა ნასწავლი მეთოდი სტრინგზე
+    <br>
+    2) კომენტარებით ახსენით რას ნიშნავს DOM და რას აკეთებს ის
+    <br>
+    3) გამოიყენეთ document.body.innerHTML, რომ შეცვალოთ საიტი
+    <br>
+    <br>
+    0)
+    <!--
+    Null - ნიშნავს, რომ ცვლადს განზრახ არ აქვს მნიშვნელობა
+    underfind - ნიშნავს, რომ ცვლადს არ აქვს მინიჭებული მნიშვნელობა.
+    .length - გამოიყენება სტრინგის ან მასივის სიგრძის გასაგებად.
+    .toUpperCase - ეს მეთოდი სტრინგს დიდ ასოებად გადააქცევს.
+    .startsWith - ამოწმებს იწყება თუ არა სტრინგი კონკრეტული ტექსტით.
+    .trim - აშორებს სივრცეებს სტრინგის დასაწყისიდან და ბოლოში.
+    -->
+    <br>
+    1)
+    <script>
+        Null
+        let user = null
+        console.log(user)
+
+        underfind
+        let age
+        console.log(age)
+
+        .length
+        let text = "Hello"
+        console.log(text.length)
+
+        .toUpperCase
+        let word = "hello"
+        console.log(word.toUpperCase())
+
+        .starstWith
+        let text1 = "JavaScript"
+        console.log(text1.startsWith("Java"))
+
+        .trim
+        let text2 = "  hello  "
+        console.log(text2.trim())
+    </script>
+    <br>
+    2)
+    <!--
+    DOM არის ვებ გვერდის სტრუქტურის წარმოდგენა ობიექტების სახით.
+    DOM-ის საშუალებით შეგვიძლია:
+    შევცვალოთ ტექსტი,
+    შევცვალოთ სტილი,
+    დავამატოთ ან წავშალოთ ელემენტები,
+    დავამატოთ მოვლენები,
+    -->
+    <br>
+    3)
+    <script>
+        document.body.innerHTML = 
+        `
+        <h1>კეთილი იყოს თქვენი ფეხი...</h1>
+        <p>ეს ტექსტი დაემატა JavaScript-ით</p>
+        <button>დამაკლიკე</button>
+        `; 
+    </script>
+</body>
+</html>

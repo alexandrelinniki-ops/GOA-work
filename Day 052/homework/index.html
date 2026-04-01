@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+    1) შექმენი <button>, რომლის დაჭერაზეც პარაგრაფის ფერი (color) შეიცვლება JavaScript-ის გამოყენებით
+    2) შექმენი ღილაკი, რომლის დაჭერაზე <div>-ს background-color შეეცვლება
+    3) დაამატე ტექსტი <p>, რომლის დაჭერაზეც მისი font-size გაიზრდება JavaScript-ით
+    4) შექმენი სურათი <img>, რომლის დაჭერაზეც მისი width შეიცვლება JavaScript-ის საშუალებით
+    5) შექმენი <div>, რომლის დაჭერაზეც დაემატება ან მოეხსნება border JavaScript-ის გამოყენებით 
+    -->
+    1)
+    <p id="text">ეს არის პარაგრაფი</p>
+
+    <button onclick="changeColor()">ფერის შეცვლა</button>
+
+    <script>
+        function changeColor() {
+            document.getElementById("text").style.color = "red";
+        }
+    </script>
+    <br>
+
+    2)
+    <div id="box"></div>
+
+    <button onclick="changeBackground()">ფონის შეცვლა</button>
+
+    <script>
+        function changeBackground() {
+            document.getElementById("box").style.backgroundColor = "green";
+        }
+    </script>
+    <br>
+
+    3)
+    <p onclick="increaseSize()" id="paragraph">დააჭირე ამ ტექსტს</p>
+
+    <script>
+        function increaseSize() {
+            document.getElementById("paragraph").style.fontSize = "30px";
+        }
+    </script>
+    <br>
+
+    4)
+    <img id="image" src="Spongey_boy.webp" onclick="changeWidth()">
+
+    <script>
+        function changeWidth() {
+            document.getElementById("image").style.width = "200px";
+        }
+    </script>
+    <br>
+
+    5)
+    <div id="box1" onclick="toggle()"></div>
+
+    <script>
+        function toggle(){
+        let d = document.getElementById("box");
+        d.style.border = d.style.border ? "" : "3px solid black";
+    }
+    </script>
+
+</body>
+</html>
