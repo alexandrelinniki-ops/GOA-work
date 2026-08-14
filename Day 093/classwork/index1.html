@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="card">
+        <h1 id="title">Advice # <span id="id">117</span></h1>
+        <p id="text">"It is easy to sit up and takenotice, whats difficult is getting up and taking action"</p>
+        <img src="./images/pattern-divider-desktop.svg" id="img1">
+        <button id="btn">
+            <img src="./images/icon-dice.svg" id="img2">
+        </button>
+    </div>
+    <script>
+
+        const adviceId = document.getElementById("title")
+        const adviceText = document.getElementById("text")
+        const button = document.getElementById("btn")
+
+        button.addEventListener("click", async () => {
+            adviceId.innerHTML = "Advice # " + Math.floor(Math.random() * 999 + 1)
+            const randomStart = start[Math.floor(Math.random())]
+        })
+
+    </script>
+</body>
+</html>
